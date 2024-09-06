@@ -1,0 +1,77 @@
+/* Estilos Personalizados */
+
+/* Header */
+.navbar-brand {
+    color: #2c7a7b !important;
+    font-weight: bold;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #2c7a7b;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    font-weight: bold;
+    color: #38a169;
+}
+
+/* Banner */
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+/* Seção de Produtos */
+.card {
+    border: none;
+}
+
+.card-title {
+    color: #2c7a7b;
+}
+
+.card-text {
+    color: #4a5568;
+}
+
+.btn-success {
+    background-color: #38a169;
+    border: none;
+}
+
+/* Footer */
+footer {
+    background-color: #2d3748;
+}
+
+footer p, footer a {
+    color: #edf2f7;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.carousel-item img {
+    object-fit: cover;  /* A imagem preencherá o container sem distorção */      /* Defina uma altura fixa para manter a proporção */
+    width: 100%;        /* A largura sempre será 100% do container */
+}
+
+.carousel-caption {
+    background: rgba(0, 0, 0, 0.5);  /* Fundo semi-transparente para melhor leitura */
+    padding: 15px;                   /* Espaço em volta do texto */
+    border-radius: 8px;              /* Bordas arredondadas */
+}
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 300px;  /* Ajusta a altura para telas menores */
+    }
+    .carousel-caption h5 {
+        font-size: 1rem;  /* Reduz o tamanho da fonte em telas menores */
+    }
+}
+.card-img-top{
+    max-height: 225px;
+}
+
